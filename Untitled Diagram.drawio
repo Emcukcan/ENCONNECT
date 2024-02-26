@@ -1,9 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T13:03:49.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qmokudrxDJZCTvIAJZIi" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T06:31:44.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="d5CdZXXY6LjqUpKVmDUi" version="23.1.6" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2581" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbFdYFJ6snyTDegqOS6b-10" target="EbFdYFJ6snyTDegqOS6b-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EbFdYFJ6snyTDegqOS6b-10" target="EbFdYFJ6snyTDegqOS6b-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-44" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-43">
+          <mxGeometry x="-0.4146" y="4" relative="1" as="geometry">
+            <mxPoint x="53" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-45" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-43">
+          <mxGeometry x="-0.4146" y="4" relative="1" as="geometry">
+            <mxPoint x="-207" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-10" value="if (abs(String1Voltage - String2Voltage) &amp;lt; 2)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-60" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbFdYFJ6snyTDegqOS6b-19" target="EbFdYFJ6snyTDegqOS6b-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-19" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; if (String1Voltage &amp;lt; HighVoltageAlarmStart)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="235" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EbFdYFJ6snyTDegqOS6b-23" target="EbFdYFJ6snyTDegqOS6b-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-30" value="Some&amp;nbsp; relays are off" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-28">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="-30" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-31" value="All of them are on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-28">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="210" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EbFdYFJ6snyTDegqOS6b-23" target="EbFdYFJ6snyTDegqOS6b-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-23" value="Check if all charge relays are on in string" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="385" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-25" value="Charge Relay#1= OFF" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="545" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-26" value="Charge Relay#1= ON" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="535" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-33" target="EbFdYFJ6snyTDegqOS6b-38" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-33" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; if (String2Voltage &amp;lt; HighVoltageAlarmStart)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="226" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-38" target="EbFdYFJ6snyTDegqOS6b-39" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-35" value="Some&amp;nbsp; relays are off" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-34">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="-30" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-36" value="All of them are on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-34">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="210" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-38" target="EbFdYFJ6snyTDegqOS6b-40" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-38" value="Check if all charge relays are on in string" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="376" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-39" value="Charge Relay#2= OFF" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="536" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-40" value="Charge Relay#2= ON" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="526" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-47" target="EbFdYFJ6snyTDegqOS6b-52" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-47" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if (String1Voltage &amp;gt; LowVoltageAlarmStart)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="216" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-52" target="EbFdYFJ6snyTDegqOS6b-53" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-49" value="Some&amp;nbsp; relays are off" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-48">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="-30" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-50" value="All of them are on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbFdYFJ6snyTDegqOS6b-48">
+          <mxGeometry x="0.2386" y="6" relative="1" as="geometry">
+            <mxPoint x="210" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" source="EbFdYFJ6snyTDegqOS6b-52" target="EbFdYFJ6snyTDegqOS6b-54" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-52" value="Check if all charge relays are on in string" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="215" y="366" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-53" value="Charge Relay#2= OFF" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="526" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EbFdYFJ6snyTDegqOS6b-54" value="Charge Relay#2= ON" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="516" width="90" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
